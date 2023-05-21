@@ -9,7 +9,13 @@ sudo dpkg --configure -a
 sudo apt-get clean
 sudo apt-get update
 sudo apt-get -y install apt-transport-https git rpi-update
-sudo apt-get -y install cmake libusb-1.0-0-dev g++ libx11-dev buffer libjpeg-dev indent libfreetype6-dev ttf-dejavu-core bc usbmount fftw3-dev wiringpi libvncserver-dev
+sudo apt-get -y install cmake libusb-1.0-0-dev g++ libx11-dev buffer libjpeg-dev indent libfreetype6-dev fonts-dejavu bc usbmount fftw3-dev libvncserver-dev
+
+# Build wiringpi fork
+git clone https://github.com/WiringPi/WiringPi.git
+cd WiringPi
+chmod +x build
+./build
 
 # rpi-update to get latest firmware
 sudo rpi-update
