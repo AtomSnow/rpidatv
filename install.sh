@@ -18,7 +18,7 @@ chmod +x build
 ./build
 
 # rpi-update to get latest firmware
-sudo rpi-update
+#sudo rpi-update
 
 # Get the source software and copy to the Pi
 cd /home/pi
