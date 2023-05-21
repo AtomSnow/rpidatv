@@ -7,7 +7,7 @@
 Install a Raspbian Lite : ([Raspbian Lite](http://www.raspberrypi.org/downloads/raspbian/))
 
 ```sh
-$ wget https://raw.githubusercontent.com/F5OEO/rpidatv/master/install.sh
+$ wget https://raw.githubusercontent.com/AtomSnow/rpidatv/master/install.sh
 $ chmod +x install.sh
 $ ./install.sh
 ```
